@@ -14,7 +14,7 @@
 	height: auto;
 }
 */
-span{
+/*span{
 	position: relative;
     background:none repeat scroll 0 0 #F8F8F8;
     border: 5px solid #DFDFDF;
@@ -30,7 +30,6 @@ span{
     
 }
 
-/*----arrow----*/
 span:after{
     content:'';
     position:absolute;
@@ -64,7 +63,7 @@ p:hover span{
     position: absolute;
     padding: 5px;
 }
-
+*/
 .activity{
 	vertical-align: bottom;
 	position:absolute;
@@ -77,12 +76,8 @@ p:hover span{
     position:absolute;
     bottom: 4%;
     left:21%;
-
-
 }
 
-.action{
-    vertical-align: bottom;
-    top: 10%;
-
+.blankrow{
+    height:100px;
 }
