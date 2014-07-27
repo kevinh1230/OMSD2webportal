@@ -1,4 +1,4 @@
-.shoppping{
+.shopping:after{
     content:url(images/shopping.png);
 }
 
@@ -10,7 +10,7 @@
 
 .checkout{
 	content:url(images/checkout.png);
-	width: 995px;
+	width: 930px;
 	height: 170px;
 }
 
@@ -23,10 +23,10 @@
 }
 .paymentservice{
 	content:url(images/paymentservice.png);
-	left:80%;
-}
+/*	left:80%;
+*/}
 
-.addressverificationservice{
+.addressverificationservice:after{
 	content:url(images/addressverificationservice.png);
 }
 
@@ -38,7 +38,7 @@
 	content:url(images/orderloggerservice.png);
 }
 
-.loadpip{
+.loadpip:after{
 	content:url(images/loadpip.png);
 }
 

@@ -14,7 +14,7 @@
 	height: auto;
 }
 */
-/*span{
+span{
 	position: relative;
     background:none repeat scroll 0 0 #F8F8F8;
     border: 5px solid #DFDFDF;
@@ -25,7 +25,6 @@
     position: absolute;
     word-wrap: break-word;
     text-align: center;
-    bottom: 100%;
     display: none;
     
 }
@@ -46,8 +45,27 @@ span:after{
     transform:rotate(45deg);
 }
 
+.addressverificationservice:hover span{
+    position:absolute;
+    display:block;
+}
 
-p{
+.loadpip:hover span{
+    display:block;
+}
+
+.shopping:hover span{
+    display:block;
+}
+
+.inventoryservice:hover span{
+    display:block;
+}
+
+.inventoryservice:hover{
+width:500px;
+}
+/*p{
 	
  	margin-top: 30%;
  	margin-bottom: 0;
@@ -55,29 +73,37 @@ p{
  	margin-right: 0px;
     float:left;
     position:relative;
-    /*cursor:pointer;*/
 }
 
 p:hover span{
     display:inline;
     position: absolute;
     padding: 5px;
-}
-*/
+}*/
+
+
 .activity{
 	vertical-align: bottom;
 	position:absolute;
-	bottom: 20%;
+	bottom: 26%;
+    z-index: -1;
 }
 
 
 .activity2{
     vertical-align: bottom;
     position:absolute;
-    bottom: 4%;
+    top: 80%;
+    /*bottom: -2%;*/
     left:21%;
+    z-index: -1;
+
 }
 
 .blankrow{
     height:100px;
+}
+
+.service{
+    vertical-align: top;
 }
