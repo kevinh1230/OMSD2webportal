@@ -120,3 +120,8 @@
 .mdm:after{
 	content:url(images/mdm.png);
 }
+
+.greenarrow:after{
+	content:url(images/greenarrow.png);
+	
+}
