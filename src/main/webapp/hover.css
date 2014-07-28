@@ -45,12 +45,91 @@ span:after{
     transform:rotate(45deg);
 }
 
+.ecomdborder:hover span{
+    display:block;
+}
+
+.paymentservice:hover span{
+    display:block;
+}
+
 .addressverificationservice:hover span{
     position:absolute;
     display:block;
 }
 
+.orderidservice:hover span{
+    display:block;
+}
+
+.orderloggerservice:hover span {
+    display:block;
+}
+
 .loadpip:hover span{
+    display:inline;
+}
+
+.browsebackorderedpip:hover span{
+    display:block;
+}
+
+.shoppingcart:hover span {
+    display:block;
+}
+
+.deliverygiftopt:hover span{
+    display:block;
+}
+
+.billingaddress:hover span{
+    display:block;
+}
+
+.payment:hover span{
+    display:block;
+}
+
+.orderconfirm:hover span{
+    display:block;
+}
+
+.cancelabandonordercopy:hover span{
+    display:block;
+}
+
+.ecomdbmdmdata:hover span{
+    display:block;
+}
+
+.taxservicecopy:hover span{
+    display:block;
+}
+
+.shippingservice:hover span{
+    display:block;
+}
+
+.promotionservice:hover span{
+    display:block;
+}
+
+.sterling:hover span{
+    display:block;
+}
+
+.mdmservice:hover span{
+    display:inline;
+}
+
+.rulepublisher:hover span{
+    display:block;
+}
+
+.mdm:hover span{
+    display:block;
+}
+.shippingaddress:hover span {
     display:block;
 }
 
@@ -62,9 +141,8 @@ span:after{
     display:block;
 }
 
-.inventoryservice:hover{
-width:500px;
-}
+
+
 /*p{
 	
  	margin-top: 30%;
@@ -83,23 +161,28 @@ p:hover span{
 
 
 .activity{
-	vertical-align: bottom;
-	position:absolute;
-	bottom: 26%;
+    vertical-align: bottom;
+    position:relative;
+    bottom:685px;
+    left:11px;
+	/*margin-top: 480px;*/
     z-index: -1;
 }
 
 
 .activity2{
     vertical-align: bottom;
-    position:absolute;
-    top: 80%;
-    /*bottom: -2%;*/
-    left:21%;
+    position:relative;
+    /*top: 80%;*/
+    bottom: 590px;
+    /*left:300px;*/
     z-index: -1;
 
 }
 
+.morewidth{
+    width: 200px;
+}
 .blankrow{
     height:100px;
 }
@@ -107,3 +190,15 @@ p:hover span{
 .service{
     vertical-align: top;
 }
+.blankspace{
+    width:210px;
+    /*width: 14.5%;*/
+}
+
+.blankspace2{
+    width:280px;
+}
+
+/*table td  {
+    border: 1px solid black;
+}*/

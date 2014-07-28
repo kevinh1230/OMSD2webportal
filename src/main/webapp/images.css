@@ -18,23 +18,22 @@
 	content:url(images/cancelabandonorder.png);
 }
 
-.ecomdborder{
+.ecomdborder:after{
 	content:url(images/ecomdborder.png);
 }
-.paymentservice{
+.paymentservice:after{
 	content:url(images/paymentservice.png);
-/*	left:80%;
-*/}
+}
 
 .addressverificationservice:after{
 	content:url(images/addressverificationservice.png);
 }
 
-.orderidservice{
+.orderidservice:after{
 	content:url(images/orderidservice.png);
 }
 
-.orderloggerservice{
+.orderloggerservice:after{
 	content:url(images/orderloggerservice.png);
 }
 
@@ -42,80 +41,82 @@
 	content:url(images/loadpip.png);
 }
 
-.browsebackorderedpip{
+.browsebackorderedpip:after{
 	content:url(images/browsebackorderedpip.png);
 }
 
-.shoppingcart{
+.shoppingcart:after{
 	content:url(images/shoppingcart.png);
 }
 
-.shippingaddress{
+.shippingaddress:after{
 	content:url(images/shippingaddress.png);
 }
 
-.deliverygiftopt {
+.deliverygiftopt:after {
 	content:url(images/deliverygiftopt.png);
 }
 
-.billingaddress{
+.billingaddress:after{
 	content:url(images/billingaddress.png);
 }
 
-.payment{
+.payment:after{
 	content:url(images/payment.png);
 }
 
-.orderconfirm{
+.orderconfirm:after{
 	content:url(images/orderconfirm.png);
 }
 
-.cancelabandonordercopy{
+.cancelabandonordercopy:after{
 	content:url(images/cancelabandonordercopy.png);
-	left: 16%;
+
 }
 
-.ecomdbmdmdata{
+.ecomdbmdmdata:after{
 	content:url(images/ecomdbmdmdata.png);
 	width: 150px;
 }
 
-.inventoryservice{
+.inventoryservice:after{
 	content:url(images/inventoryservice.png);	
 	height: 170px;
 	width: 170px;
 }
 
-.pricingservice{
+.pricingservice:after{
 	content:url(images/pricingservice.png);
 	width: 550px;
 	height:170px;
 }
 
-.taxservicecopy{
+.taxservicecopy:after{
 	content:url(images/taxservicecopy.png);
 }
 
-.shippingservice{
+.shippingservice:after{
 	content:url(images/shippingservice.png);
 }
 
-.promotionservice{
+.promotionservice:after{
 	content:url(images/promotionservice.png);
 }
 
-.sterling{
+.sterling:after{
 	content:url(images/sterling.png);
 }
 
-.mdmservice{
+.mdmservice:after{
 	content:url(images/mdmservice.png);
 }
 
-.rulepublisher{
+
+.rulepublisher:after{
 	content:url(images/rulepublisher.png);
+	width:70px;
 }
 
-.mdm{
+.mdm:after{
 	content:url(images/mdm.png);
 }
