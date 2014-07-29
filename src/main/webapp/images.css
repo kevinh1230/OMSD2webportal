@@ -123,5 +123,60 @@
 
 .greenarrow:after{
 	content:url(images/greenarrow.png);
-	
+}
+
+.redcancelorder:after{
+	content:url(images/redcancelorder.png);
+}
+
+.redcancelorder2:after{
+    content:url(images/redcancelorder2.png);
+}
+
+.finalinventoryreservation:after{
+	content:url(images/finalinventoryreservation.png);
+}
+
+.reservechangeinventory:after{
+	content:url(images/reservechangeinventory.png);
+}
+
+.redreleasepromocode:after{
+	content:url(images/redreleasepromocode.png);
+}
+
+.graysterling:after{
+	content:url(images/graysterling.png);
+}
+
+.greeninventoryservice:after{
+	content:url(images/greeninventoryservice.png);
+}
+
+.graypaymentservice:after{
+	content: url(images/graypaymentservice.png);
+}
+
+.purplepaymentservice:after{
+	content: url(images/purplepaymentservice.png);
+}
+
+.purplepromotionservice:after{
+	content: url(images/purplepromotionservice.png);
+}
+
+.createorder:after{
+	content:url(images/createorder.png);
+}
+
+.blackmdm:after{
+	content:url(images/blackmdm.png);
+}
+
+.blackpricingservice:after{
+	content:url(images/blackpricingservice.png);
+}
+
+.blackrulepublisher:after{
+	content:url(images/blackrulepublisher.png);
 }

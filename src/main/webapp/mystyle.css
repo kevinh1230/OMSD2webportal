@@ -1,51 +1,15 @@
-h2{
-	font-family:Verdana;
-}
-
-#legend{
-	height:200px;
-	width:200px;
-	margin-right:55px;
-}
-
-#delivery{
-	position:absolute;
-	left:-110px;
-}
-
-#shopping{
-	position:absolute;
-}
-
-#BBPIP{
-	position:absolute;
-	left:-180px;
-}
-
-.service{
-	height:50px;
-	width:85px;
-	margin-bottom:80px;
-	margin-left:25px;
-}
-
 span{
-	float:none;
-	background:#F8F8F8;
+	position: relative;
+    background:none repeat scroll 0 0 #F8F8F8;
     border: 5px solid #DFDFDF;
-    color: #717171;
     font-size: 13px;
-    /*height: 30px;*/
     letter-spacing: 1px;
     line-height: 30px;
+    margin: 0 auto;
     position: absolute;
-    text-align: center;
-    /*top: -170px;*/
-    left:50px;
-    bottom:142px;
-    display:none;
-    padding:2px 10px 3px 10px;
     word-wrap: break-word;
+    text-align: center;
+    display: none;    
 }
 
 span:after{
@@ -62,26 +26,268 @@ span:after{
     -moz-transform:rotate(45deg);
     -webkit-transform:rotate(45deg);
     transform:rotate(45deg);
-    }
-
-.hove{
-    position:relative;
-    cursor:pointer;
 }
 
-.hove:hover span{
-	cursor:pointer;
+.ecomdborder:hover span{
+    display:block;
+}
+
+.paymentservice:hover span{
+    display:block;
+}
+
+.addressverificationservice:hover span{
+    position:absolute;
+    display:block;
+}
+
+.orderidservice:hover span{
+    display:block;
+}
+
+.orderloggerservice:hover span {
+    display:block;
+}
+
+.loadpip:hover span{
     display:inline;
 }
 
-.legend {
-	margin:0px;
-	height: auto;
-	position: absolute;
+.browsebackorderedpip:hover span{
+    display:block;
 }
 
-.notlegend {
-	margin-left: 250px;
-	margin-top: 0px;
-	height:auto;
+.shoppingcart:hover span {
+    display:block;
+}
+
+.deliverygiftopt:hover span{
+    display:block;
+}
+
+.billingaddress:hover span{
+    display:block;
+}
+
+.payment:hover span{
+    display:block;
+}
+
+.orderconfirm:hover span{
+    display:block;
+}
+
+.cancelabandonordercopy:hover span{
+    display:block;
+}
+
+.ecomdbmdmdata:hover span{
+    display:block;
+}
+
+.taxservicecopy:hover span{
+    display:block;
+}
+
+.shippingservice:hover span{
+    display:block;
+}
+
+.promotionservice:hover span{
+    display:block;
+}
+
+.sterling:hover span{
+    display:block;
+}
+
+.mdmservice:hover span{
+    display:block;
+}
+
+.rulepublisher:hover span{
+    display:block;
+}
+
+.mdm:hover span{
+    display:block;
+}
+.shippingaddress:hover span {
+    display:block;
+}
+
+.shopping:hover span{
+    display:block;
+}
+
+.inventoryservice:hover span{
+    display:block;
+}
+
+.blankcell{
+    width: 205px;
+}
+.blankrow{
+    height:100px;
+}
+.wideblankcell{
+    width:280px;
+}
+
+.activity{
+    vertical-align: bottom;
+    position:relative;
+    bottom:695px;
+    left:15px;
+    min-width: 800px;    
+    z-index: -2;
+}
+
+.action{
+    position:relative;
+    left: 37px;
+}
+
+.service{
+    vertical-align: top;
+}
+
+.service2{
+    vertical-align: bottom;
+    position:relative;
+    /*top: 80%;*/
+    bottom: 590px;
+    right:16px;
+    /*left:300px;*/
+    z-index: -2;
+}
+/*
+ table td {
+    border:solid;
+    border-color:black;
+}*/
+
+.arrow{
+    width: 0px;
+    height:0px;
+    border-style:solid;
+    border-width: 0 100px 100px 100px;
+    border-color: transparent transparent #007bff transparent;
+}
+
+.line{
+    left:90px;
+    padding-top:70px;
+    padding-bottom:50px;
+    border-left: 2px solid green;
+    margin-left: 56px;
+}
+
+/*.container{
+    position:relative;
+}*/
+
+.greenarrow{
+    /*display:none;*/
+    position:relative;
+    bottom:900px;
+    left:-660px;
+}
+
+.redcancelorder{
+    position:relative;
+    bottom:1078px;
+    left:190px;
+    z-index: -1;
+}
+
+.redcancelorder2{
+    position:relative;
+    bottom:1500px;
+    left:490px;
+    z-index: -1;
+}
+
+.finalinventoryreservation{
+    position:relative;
+    bottom:1194px;
+    left:280px;
+    z-index: -1;
+}
+
+.reservechangeinventory{
+    position:relative;
+    bottom:1636px;
+    right:35px;
+    z-index: -1;
+}
+
+.redreleasepromocode{
+    position:relative;
+    bottom: 1720px;
+    left:320px;
+    z-index: -1;
+}
+
+.graysterling{
+    position:relative;
+    bottom:2000px;
+    left:528px;
+    z-index: -1;
+}
+
+.greeninventoryservice{
+    position:relative;
+    bottom:2250px;
+    left:-505px;
+    z-index: -1;
+}
+
+.graypaymentservice{
+    position:relative;
+    bottom:2830px;
+    left:535px;
+    z-index: -1;
+}
+
+.purplepaymentservice{
+    position:relative;
+    bottom: 3200px;
+    left:430px;
+    z-index: -1;
+}
+
+.purplepromotionservice{
+    position:relative;
+    bottom: 3128px;
+    left:240px;
+    z-index: -1;
+}
+
+.createorder{
+    position:relative;
+    bottom:3540px;
+    left:235px;
+    z-index:-1;
+}
+
+.blackmdm{
+    position:relative;
+    bottom:3090px;
+    right:610px;
+    z-index: -1;
+}
+
+.blackpricingservice{
+    position:relative;
+    bottom:3325px;
+    left:35px;
+    z-index: -3;
+}
+
+.blackrulepublisher{
+    position:relative;
+    bottom:3500px;
+    right:320px;
+    z-index: -1
 }
