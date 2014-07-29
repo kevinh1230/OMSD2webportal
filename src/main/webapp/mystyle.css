@@ -1,3 +1,6 @@
+body{
+}
+
 span{
 	position: relative;
     background:none repeat scroll 0 0 #F8F8F8;
@@ -159,7 +162,7 @@ span:after{
     bottom: 590px;
     right:16px;
     /*left:300px;*/
-    z-index: -2;
+    z-index: -1;
 }
 /*
  table td {
@@ -191,7 +194,8 @@ span:after{
     /*display:none;*/
     position:relative;
     bottom:900px;
-    left:-660px;
+    left:-678px;
+    z-index: -1
 }
 
 .redcancelorder{
@@ -266,7 +270,7 @@ span:after{
 
 .createorder{
     position:relative;
-    bottom:3540px;
+    bottom:3530px;
     left:235px;
     z-index:-1;
 }
@@ -289,5 +293,26 @@ span:after{
     position:relative;
     bottom:3500px;
     right:320px;
+    z-index: -1
+}
+
+.bluestoredata{
+    position:relative;
+    bottom:3630px;
+    right:662px;
+    z-index: -1
+}
+
+.storeorderdata{
+    position:relative;
+    bottom:4375px;
+    left:240px;
+    z-index: -1
+}
+
+.goldarrow{
+    position:relative;
+    bottom:3810px;
+    left:400px;
     z-index: -1
 }

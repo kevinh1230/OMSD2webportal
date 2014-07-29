@@ -93,6 +93,8 @@
 
 .taxservicecopy:after{
 	content:url(images/taxservicecopy.png);
+		z-index: 1000;
+
 }
 
 .shippingservice:after{
@@ -179,4 +181,16 @@
 
 .blackrulepublisher:after{
 	content:url(images/blackrulepublisher.png);
+}
+
+.bluestoredata:after{
+	content:url(images/bluestoredata.png);
+}
+
+.storeorderdata:after{
+	content:url(images/bluestoredata.png);
+}
+
+.goldarrow:after{
+	content:url(images/goldarrow.png);
 }
