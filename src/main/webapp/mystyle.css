@@ -1,28 +1,33 @@
-.minwidth { min-width:100px; width: auto !important; width: 100px; }
-
 span{
+    width: 185px;
+    height: 110px;
 	position: relative;
-    background:none repeat scroll 0 0 #F8F8F8;
-    border: 5px solid #DFDFDF;
+    background:none repeat scroll 0 0 #F0F0F0 ;
+    border: 1px solid black;
     font-size: 13px;
     letter-spacing: 1px;
-    line-height: 30px;
+    line-height: 15px;
     margin: 0 auto;
     position: absolute;
     word-wrap: break-word;
     text-align: center;
-    display: none;    
+    display: none;
+    margin-top:-125px;
+    margin-left: -12px;
+    border-radius: 7px;
+    font-family: Arial;
+    padding: 3px;
 }
 
 span:after{
     content:'';
     position:absolute;
-    bottom:-10px; 
+    bottom:-6px; 
     width:10px;
     height:10px;
-    border-bottom:5px solid #dfdfdf;
-    border-right:5px solid #dfdfdf;
-    background:#f8f8f8;
+    border-bottom:1px solid black;
+    border-right:1px solid black;
+    background:#F0F0F0 ;
     left:50%;
     margin-left:-10px;
     -moz-transform:rotate(45deg);
@@ -150,13 +155,6 @@ span:after{
     float:center;
 }
 
-.activity:after { 
-   content: " ";
-   display: block; 
-   height: 0; 
-   clear: both;
-}
-
 .service{
     vertical-align: top;
 }
@@ -164,17 +162,10 @@ span:after{
 .service2{
     vertical-align: bottom;
     position:relative;
-    /*top: 80%;*/
     bottom: 590px;
     right:16px;
-    /*left:300px;*/
     z-index: -1;
 }
-/*
- table td {
-    border:solid;
-    border-color:black;
-}*/
 
 .arrow{
     width: 0px;
@@ -192,12 +183,7 @@ span:after{
     margin-left: 56px;
 }
 
-/*.container{
-    position:relative;
-}*/
-
 .greenarrow{
-    /*display:none;*/
     position:relative;
     bottom:900px;
     left:-678px;
@@ -323,19 +309,11 @@ span:after{
     z-index: -1;
 }
 
-/*.blackvalidateaddress{
-    position:relative;
-    bottom:4450px;
-    z-index: -1;
-
-}*/
-
 .smallblackarrow1{
     position:relative;
     bottom:4260px;
     left:-180px;
     z-index: -1;
-
 }
 
 .smallblackarrow2{
@@ -343,7 +321,6 @@ span:after{
     bottom:4295px;
     left:-20px;
     z-index: -1;
-
 }
 
 .smallblackarrow3{
@@ -351,7 +328,6 @@ span:after{
     bottom:4332px;
     left:140px;
     z-index: -1;
-
 }
 
 .smallblackarrow4{
@@ -365,4 +341,5 @@ span:after{
     position:relative;
     bottom:4555px;
     left: -5px;
+    z-index: -1;
 }
