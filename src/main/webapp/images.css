@@ -197,3 +197,23 @@
 .blackvalidateaddress:after{
 	content:url(images/blackvalidateaddress.png);
 }
+
+.smallblackarrow1:after{
+    content:url(images/smallblackarrow.png);
+}
+
+.smallblackarrow2:after{
+    content:url(images/smallblackarrow.png);
+}
+
+.smallblackarrow3:after{
+    content:url(images/smallblackarrow.png);
+}
+
+.smallblackarrow4:after{
+    content:url(images/smallblackarrow.png);
+}
+
+.blackaddressverificationservice:after{
+	content:url(images/blackaddressverificationservice.png);
+}

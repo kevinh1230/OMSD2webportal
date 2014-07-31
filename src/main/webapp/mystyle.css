@@ -306,24 +306,63 @@ span:after{
     position:relative;
     bottom:3630px;
     right:662px;
-    z-index: -1
+    z-index: -1;
 }
 
 .storeorderdata{
     position:relative;
     bottom:4375px;
     left:240px;
-    z-index: -1
+    z-index: -1;
 }
 
 .goldarrow{
     position:relative;
     bottom:3810px;
     left:400px;
-    z-index: -1
+    z-index: -1;
 }
 
-.blackvalidateaddress{
+/*.blackvalidateaddress{
     position:relative;
     bottom:4450px;
+    z-index: -1;
+
+}*/
+
+.smallblackarrow1{
+    position:relative;
+    bottom:4260px;
+    left:-180px;
+    z-index: -1;
+
+}
+
+.smallblackarrow2{
+    position:relative;
+    bottom:4295px;
+    left:-20px;
+    z-index: -1;
+
+}
+
+.smallblackarrow3{
+    position:relative;
+    bottom:4332px;
+    left:140px;
+    z-index: -1;
+
+}
+
+.smallblackarrow4{
+    position:relative;
+    bottom:4367px;
+    left:340px;
+    z-index: -1;
+}
+
+.blackaddressverificationservice{
+    position:relative;
+    bottom:4555px;
+    left: -5px;
 }
