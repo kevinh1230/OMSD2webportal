@@ -1,11 +1,11 @@
-.shopping:after{
-    content:url(images/shopping.png);
-}
-
 .legend{
 	content:url(images/legend.png);
 	width:400px;
 	height:400px;
+}
+
+.shopping:after{
+    content:url(images/shopping.png);
 }
 
 .checkout{
@@ -93,7 +93,6 @@
 
 .taxservicecopy:after{
 	content:url(images/taxservicecopy.png);
-		z-index: 1000;
 
 }
 
@@ -193,4 +192,8 @@
 
 .goldarrow:after{
 	content:url(images/goldarrow.png);
+}
+
+.blackvalidateaddress:after{
+	content:url(images/blackvalidateaddress.png);
 }

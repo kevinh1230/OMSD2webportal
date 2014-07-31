@@ -1,5 +1,4 @@
-body{
-}
+.minwidth { min-width:100px; width: auto !important; width: 100px; }
 
 span{
 	position: relative;
@@ -137,18 +136,25 @@ span:after{
     width:280px;
 }
 
+.action{
+    position:relative;
+    left: 37px;
+}
+
 .activity{
     vertical-align: bottom;
     position:relative;
     bottom:695px;
     left:15px;
-    min-width: 800px;    
     z-index: -2;
+    float:center;
 }
 
-.action{
-    position:relative;
-    left: 37px;
+.activity:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
 }
 
 .service{
@@ -315,4 +321,9 @@ span:after{
     bottom:3810px;
     left:400px;
     z-index: -1
+}
+
+.blackvalidateaddress{
+    position:relative;
+    bottom:4450px;
 }
