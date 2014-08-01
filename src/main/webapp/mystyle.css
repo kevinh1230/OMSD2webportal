@@ -162,8 +162,8 @@ span:after{
 .service2{
     vertical-align: bottom;
     position:relative;
-    bottom: 590px;
-    right:16px;
+    /*bottom: 590px;*/
+    /*right:16px;*/
     z-index: -1;
 }
 
