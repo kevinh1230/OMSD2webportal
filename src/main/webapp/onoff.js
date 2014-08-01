@@ -3,8 +3,19 @@ $(document).ready(function(){
     $(".activity").effect("bounce", { times:5, distance:300 }, 600);
     $(".service2").animate({bottom:'590px',right:'16px'});
 
-    //$(".service2").effect("bounce", { times:2, distance:200 }, 200);
-    //$(".arrows").effect("bounce", { times:4, distance:200 }, 400);
+    // $(document).scroll(function () {
+    //     var y = $(this).scrollTop();
+    //     if (y > 800) {
+    //          // $('.bottomMenu').fadeIn();
+    //          // document.getElementById("fixed").style.overflow-y= "hidden";
+    //     }
+    // });
+
+$(window).scroll(function(e) {   
+    if($(window).scrollTop() >=300) {
+       $(window).scrollTop(300);
+    }
+});
 
     var taxflag = 1;
     var shippingflag = 1;

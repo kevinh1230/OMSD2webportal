@@ -12,5 +12,6 @@ public class OMSD2Servlet extends HttpServlet
         response.setStatus(HttpServletResponse.SC_OK);
         response.getWriter().println("<h1>Hello Servlet</h1>");
         response.getWriter().println("session=" + request.getSession(true).getId());
+        response.getWriter().println("hmmmm");
     }
 }
