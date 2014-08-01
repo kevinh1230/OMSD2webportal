@@ -1,0 +1,219 @@
+.legend{
+	content:url(images/legend.png);
+	width:400px;
+	height:400px;
+}
+
+.shopping:after{
+    content:url(images/shopping.png);
+}
+
+.checkout{
+	content:url(images/checkout.png);
+	width: 930px;
+	height: 170px;
+}
+
+.cancelabandonorder{
+	content:url(images/cancelabandonorder.png);
+}
+
+.ecomdborder{
+	content:url(images/ecomdborder.png);
+}
+
+.ecomdbmdmdata{
+	content:url(images/ecomdbmdmdata.png);
+}
+
+.paymentservice:after{
+	content:url(images/paymentservice.png);
+}
+
+.addressverificationservice:after{
+	content:url(images/addressverificationservice.png);
+}
+
+.orderidservice:after{
+	content:url(images/orderidservice.png);
+}
+
+.orderloggerservice:after{
+	content:url(images/orderloggerservice.png);
+}
+
+.loadpip:after{
+	content:url(images/loadpip.png);
+}
+
+.browsebackorderedpip:after{
+	content:url(images/browsebackorderedpip.png);
+}
+
+.shoppingcart:after{
+	content:url(images/shoppingcart.png);
+}
+
+.shippingaddress:after{
+	content:url(images/shippingaddress.png);
+}
+
+.deliverygiftopt:after {
+	content:url(images/deliverygiftopt.png);
+}
+
+.billingaddress:after{
+	content:url(images/billingaddress.png);
+}
+
+.payment:after{
+	content:url(images/payment.png);
+}
+
+.orderconfirm:after{
+	content:url(images/orderconfirm.png);
+}
+
+.cancelabandonordercopy:after{
+	content:url(images/cancelabandonordercopy.png);
+
+}
+
+.inventoryservice:after{
+	content:url(images/inventoryservice.png);	
+	height: 170px;
+	width: 170px;
+}
+
+.pricingservice:after{
+	content:url(images/pricingservice.png);
+	width: 550px;
+	height:170px;
+}
+
+.taxservicecopy:after{
+	content:url(images/taxservicecopy.png);
+
+}
+
+.shippingservice:after{
+	content:url(images/shippingservice.png);
+}
+
+.promotionservice:after{
+	content:url(images/promotionservice.png);
+}
+
+.sterling:after{
+	content:url(images/sterling.png);
+}
+
+.mdmservice:after{
+	content:url(images/mdmservice.png);
+}
+
+
+.rulepublisher:after{
+	content:url(images/rulepublisher.png);
+	width:70px;
+}
+
+.mdm:after{
+	content:url(images/mdm.png);
+}
+
+.greenarrow:after{
+	content:url(images/greenarrow.png);
+}
+
+.redcancelorder:after{
+	content:url(images/redcancelorder.png);
+}
+
+.redcancelorder2:after{
+    content:url(images/redcancelorder2.png);
+}
+
+.finalinventoryreservation:after{
+	content:url(images/finalinventoryreservation.png);
+}
+
+.reservechangeinventory:after{
+	content:url(images/reservechangeinventory.png);
+}
+
+.redreleasepromocode:after{
+	content:url(images/redreleasepromocode.png);
+}
+
+.graysterling:after{
+	content:url(images/graysterling.png);
+}
+
+.greeninventoryservice:after{
+	content:url(images/greeninventoryservice.png);
+}
+
+.graypaymentservice:after{
+	content: url(images/graypaymentservice.png);
+}
+
+.purplepaymentservice:after{
+	content: url(images/purplepaymentservice.png);
+}
+
+.purplepromotionservice:after{
+	content: url(images/purplepromotionservice.png);
+}
+
+.createorder:after{
+	content:url(images/createorder.png);
+}
+
+.blackmdm:after{
+	content:url(images/blackmdm.png);
+}
+
+.blackpricingservice:after{
+	content:url(images/blackpricingservice.png);
+}
+
+.blackrulepublisher:after{
+	content:url(images/blackrulepublisher.png);
+}
+
+.bluestoredata:after{
+	content:url(images/bluestoredata.png);
+}
+
+.storeorderdata:after{
+	content:url(images/bluestoredata.png);
+}
+
+.goldarrow:after{
+	content:url(images/goldarrow.png);
+}
+
+.blackvalidateaddress:after{
+	content:url(images/blackvalidateaddress.png);
+}
+
+.smallblackarrow1:after{
+    content:url(images/smallblackarrow.png);
+}
+
+.smallblackarrow2:after{
+    content:url(images/smallblackarrow.png);
+}
+
+.smallblackarrow3:after{
+    content:url(images/smallblackarrow.png);
+}
+
+.smallblackarrow4:after{
+    content:url(images/smallblackarrow.png);
+}
+
+.blackaddressverificationservice:after{
+	content:url(images/blackaddressverificationservice.png);
+}

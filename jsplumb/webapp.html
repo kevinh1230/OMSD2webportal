@@ -1,0 +1,107 @@
+<!doctype html>
+
+<?xml version="1.0" encoding="UTF-8"?>
+  <html xmlns='http://www.w3.org/1999/xhtml' xmlns:v="urn:schemas-microsoft-com:vml">
+
+<head>
+
+<script src="dist/js/dom.jsPlumb-1.6.2-min.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script src="dist/js/jquery.jsPlumb-1.6.2-min.js "></script>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/mootools/1.4.5/mootools-core-full-compat-yc.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/mootools-more/1.4.0.1/mootools-more-yui-compressed.min.js"></script>
+<script src="dist/js/mootools.jsPlumb-1.6.2-min.js "></script>
+
+<script src="https://yui.yahooapis.com/3.3.0/build/simpleyui/simpleyui-min.js"></script>
+<script src="dist/js/yui.jsPlumb-1.6.2-min.js "></script>
+
+<script src ="dist/demo/perimeterAnchors/demo.js"></script>
+<script src="dist/js/demo-list.js"></script>
+
+<link rel = "stylesheet" type = "text/css" href = "css/jsplumb.css">
+<link rel = "stylesheet" type = "text/css" href = "demo/flowchart/demo.css">
+<link rel = "stylesheet" type = "text/css" href = "images.css">
+<link rel = "stylesheet" type = "text/javascript" href = "demo/flowchart/demo.js">
+</head>
+
+
+<body data-demo-id="flowchart" data-library="dom">
+    <div class = "override">
+	 <center>
+            <div class="demo flowchart-demo" id="flowchart-demo">
+
+                    <h4>OMSD2 HIGH LEVEL PROCESS FLOW DIAGRAM</h4>
+                <div class="window _jsPlumb_endpoint_anchor_ jsplumb-draggable" id="legend1"><div class = "legend"></div></div>
+                <div class="window jsplumb-draggable" id="ecomdborder1"><div class = "ecomdborder"></div><span>some text here</span></div>
+                <div class="window _jsPlumb_endpoint_anchor_ jsplumb-draggable" id="paymentservice1"><div class = "paymentservice"></div></div>
+                <div class="window _jsPlumb_endpoint_anchor_ jsplumb-draggable" id="addressverificationservice1"><div class = "addressverificationservice"></div></div>
+                <div class="window jsplumb-draggable" id="orderidservice1"><div class = "orderidservice"></div></div>
+                <div class="window jsplumb-draggable" id="orderloggerservice1"><div class = "orderloggerservice"></div></div> 
+                <div class="window jsplumb-draggable" id="shopping1"><div class = "shopping"></div></div>
+
+
+
+
+<!-- 
+                <svg style="position:absolute;left:385px;top:509px" width="138" height="112.5" pointer-events="none" position="absolute" version="1.1" xmlns="http://www.w3.org/1999/xhtml" class="_jsPlumb_connector">
+                	<path d="M 0 -10 L 0 -45 M0 -45 A 5 5 0 0,1 5 -50 M 5 -50 L 112 -50 M112 -50 A 5 5 0 0,1 117 -45 M 117 -45 L 117 41.5 M117 41.5 A 5 5 0 0,1 112 46.5 M 112 46.5 L 57 46.5"  transform="translate(15,56)" pointer-events="visibleStroke" version="1.1" xmlns="http://www.w3.org/1999/xhtml" fill="none" stroke="white" style stroke-width="8" stroke-linejoin="round"></path>
+                	<path d="M 0 -10 L 0 -45 M0 -45 A 5 5 0 0,1 5 -50 M 5 -50 L 112 -50 M112 -50 A 5 5 0 0,1 117 -45 M 117 -45 L 117 41.5 M117 41.5 A 5 5 0 0,1 112 46.5 M 112 46.5 L 57 46.5"  transform="translate(15,56)" pointer-events="visibleStroke" version="1.1" xmlns="http://www.w3.org/1999/xhtml" fill="none" stroke="#61B7CF" style stroke-width="4" stroke-linejoin="round"></path>
+                	<path pointer-events="all" version="1.1" xmlns="http://www.w3.org/1999/xhtml" d="M57,46.5 L77,36.5 L69.46000000000001,46.5 L77,56.5 L57,46.5" class stroke="#61B7CF" fill="#61B7CF" transform="translate(15,56)"></path>
+                </svg> -->
+
+                <svg style="position:absolute;left:1405px;top:170px" width="438" height="412.5" pointer-events="none" position="absolute" version="1.1" xmlns="http://www.w3.org/1999/xhtml" class="_jsPlumb_connector">
+                    <path d = "
+                    M 0 165
+                    L 0 110
+                    M 0 110
+                    A 5 5 0 0,1 5 105
+                    M 5   105
+                    L 140  105
+                    M 140  105
+                    A 90 90 0 0,1 145 100
+                    M 145 100
+                    L 145 -10
+                    A 5 5 0 0,1 150 -15
+                    M 150 -15
+                    L 165 -15" transform="translate(15,56)" pointer-events="visibleStroke" version="1.1" xmlns="http://www.w3.org/1999/xhtml" fill="none" stroke="white" style stroke-width="8" stroke-linejoin="round"></path>
+
+                    <path d="
+                    M 0 165
+                    L 0 110
+                    M 0 110
+                    A 5 5 0 0,1 5 105
+                    M 5   105
+                    L 140  105
+                    M 140  105
+                    A 90 90 0 0,1 145 100
+                    M 145 100
+                    L 145 -10
+                    A 5 5 0 0,1 150 -15
+                    M 150 -15
+                    L 165 -15
+                    "  transform="translate(15,56)" pointer-events="visibleStroke" version="1.1" xmlns="http://www.w3.org/1999/xhtml" fill="none" stroke="#61B7CF" style stroke-width="4" stroke-linejoin="round"></path>
+
+                    <path pointer-events="all" version="1.1" xmlns="http://www.w3.org/1999/xhtml" 
+                    d= "M57,46.5 
+                    L77,36.5 
+                    L69.46000000000001,46.5 
+                    L77,56.5 
+                    L57,46.5" 
+                    class stroke="#61B7CF" fill="#61B7CF" transform="translate(15,56)"></path>
+            </svg>
+        </div>
+
+	</center>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+

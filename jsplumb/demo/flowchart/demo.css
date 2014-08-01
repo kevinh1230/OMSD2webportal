@@ -1,0 +1,133 @@
+span{
+	position: relative;
+    background:none repeat scroll 0 0 #F8F8F8;
+    border: 5px solid #DFDFDF;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 0 auto;
+    position: absolute;
+    word-wrap: break-word;
+    text-align: center;
+    display: none;    
+}
+
+span:after{
+    content:'';
+    position:absolute;
+    bottom:-10px; 
+    width:10px;
+    height:10px;
+    border-bottom:5px solid #dfdfdf;
+    border-right:5px solid #dfdfdf;
+    background:#f8f8f8;
+    left:50%;
+    margin-left:-10px;
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+
+.flowchart-demo .window { 
+	/*border:1px solid #346789;*/
+/*	box-shadow: 2px 2px 19px #aaa;
+   -o-box-shadow: 2px 2px 19px #aaa;
+   -webkit-box-shadow: 2px 2px 19px #aaa;
+   -moz-box-shadow: 2px 2px 19px #aaa;
+	-moz-border-radius:0.5em;
+	border-radius:0.5em;*/
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	text-align:center;
+	z-index:20; 
+	position:absolute;
+	/*background-color:#eeeeef;*/
+	/*color:black;*/
+	font-family:Arial;
+	padding:0.5em;
+	font-size:0.9em;
+}
+
+.flowchart-demo .window:hover {
+/*	box-shadow: 2px 2px 19px #444;
+   -o-box-shadow: 2px 2px 19px #444;
+   -webkit-box-shadow: 2px 2px 19px #444;
+   -moz-box-shadow: 2px 2px 19px #444;*/
+    /*opacity:0.6;*/
+	/*filter:alpha(opacity=60);*/
+
+}
+
+.flowchart-demo .active {
+	border:1px dotted green;
+}
+.flowchart-demo .hover {
+	border:1px dotted red;
+}
+
+
+
+#legend1 { 
+	top:9em;
+	left:7em;
+}
+#ecomdborder1 { 
+	top:10em; 
+	left:79em;
+}
+#paymentservice1 { 
+	top:11em;
+	left:110em; 
+}
+#addressverificationservice1 { 
+	top:24em; 
+	left:50em;
+}
+
+#orderidservice1 {
+	top:24em; 
+	left:65em;
+}
+
+#orderloggerservice1{
+	top:24em;
+	left:80em;
+}
+
+#shopping1{
+	top:38em;
+	left:7em;
+}
+
+#checkout1{
+	top:30em;
+	left:50em;
+}
+
+#cancelabandonorder1{
+	top:30em;
+
+}
+
+
+
+.flowchart-demo ._jsPlumb_connector { z-index:4; }
+.flowchart-demo ._jsPlumb_endpoint, .endpointTargetLabel, .endpointSourceLabel{ z-index:21;cursor:pointer; }
+
+.flowchart-demo .aLabel {
+ 	background-color:white; 
+	padding:0.4em; 
+	font:12px sans-serif; 
+	color:#444;
+	z-index:21;
+	border:1px dotted gray;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	cursor: pointer;
+}
+.flowchart-demo .aLabel._jsPlumb_hover {
+	background-color:#5C96BC;
+	color:white;	
+	border:1px solid white;
+}
+
