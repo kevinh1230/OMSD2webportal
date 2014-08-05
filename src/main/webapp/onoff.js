@@ -3,19 +3,11 @@ $(document).ready(function(){
     $(".activity").effect("bounce", { times:5, distance:300 }, 600);
     $(".service2").animate({bottom:'590px',right:'16px'});
 
-    // $(document).scroll(function () {
-    //     var y = $(this).scrollTop();
-    //     if (y > 800) {
-    //          // $('.bottomMenu').fadeIn();
-    //          // document.getElementById("fixed").style.overflow-y= "hidden";
+    // $(document).scroll(function() {   
+    //     if($(document).scrollTop() >400) {
+    //         $(document).scrollTop(400);
     //     }
     // });
-
-$(window).scroll(function(e) {   
-    if($(window).scrollTop() >=300) {
-       $(window).scrollTop(300);
-    }
-});
 
     var taxflag = 1;
     var shippingflag = 1;

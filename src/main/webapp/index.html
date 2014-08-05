@@ -1,25 +1,25 @@
-<link href="mystyle.css" rel="stylesheet" type="text/css">
 <!DOCTYPE html>
-<html >
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+    // $.get('OMSD2', function(data) {
+    //     alert(data);
+    // });
+
+    $.get( "OMSD2", function( data ) {
+        $( "body" ).append( data );
+    alert( "Load was performed." );
+    });
+    </script>
+</head>
 <body>
-<center><h2>OMSD2 Web Portal<h2></center>
-<div class = "legend"><img id = "legend" src = "static/Legend.png" alt = "Legend" ></div>
+<a href="OMSD2">hihi</a>
 
-<div class = "notlegend">
-<table>
-<tr>
-<td><kevin class = "hove"><img class = "service" src = "static/Address Verification Service.png"><span>hi </span></kevin></td>
-<td><kevin class = "hove"><img class = "service" src = "static/Order ID Service.png" ><span>hi hi hi</span></kevin></td>
-<td><kevin class = "hove"><img class = "service" src = "static/Order Logger Service.png" ><span>hi hi hi hi hi hi</span></kevin></td>
-</tr>
+<form action="OMSD2" method="post"> 
+    <input type = "text" name = "user">
+    <input type="submit" value="submit">
+</form>
 
-<tr>
-<td><kevin class = "hove"><img id = "shopping"src = "static/Shopping.png" width = "190px" height = "90px"><span>hi hi</span></kevin></td>
-<td><kevin class = "hove"><img id = "delivery" src = "static/DeliveryGiftOpt.png" width = "90px" height = "90px"><span>hi hi hi</span></kevin></td>
-<td><kevin class = "hove"><img id = "BBPIP" src = "static/LoadPip.png" width = "90px" height = "90px"><span>hi hi hi hi</span></kevin></td>
-</tr>
-</table>
-</div>
 </body>
-
 </html>
