@@ -40,12 +40,10 @@ public class OMSD2Servlet extends HttpServlet
 
      protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        String user = request.getParameter("user");
-        // BasicConfigurator.configure();
-		    response.setContentType("text/plain");
-		    response.setCharacterEncoding("UTF-8");
-		    response.getWriter().write(user);
-        log.debug("Hello this is an debug message");
-        log.info(user);
+        String message = request.getParameter("message");
+		    // response.setContentType("text/plain");
+		    // response.setCharacterEncoding("UTF-8");
+		    // response.getWriter().write(message);
+        log.info(message);
      }
 }

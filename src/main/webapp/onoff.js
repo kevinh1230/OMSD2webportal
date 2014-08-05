@@ -7,7 +7,7 @@ $(document).ready(function(){
     //     if($(document).scrollTop() >400) {
     //         $(document).scrollTop(400);
     //     }
-    // });
+    // });    
 
     var taxflag = 1;
     var shippingflag = 1;
@@ -18,11 +18,13 @@ $(document).ready(function(){
             $.blockUI({ message: $('#taxserviceon') }); 
             setTimeout($.unblockUI, 2000); 
             taxflag = 0; 
-
+            $.post( "OMSD2", { message: "Tax service is on." } );
        } else {
             $.blockUI({ message: $('#taxserviceoff') }); 
             setTimeout($.unblockUI, 2000); 
             taxflag = 1;
+            $.post( "OMSD2", { message: "Tax service is off." } );
+
         }
     });
     $(".shippingservice").click(function(){
@@ -30,11 +32,13 @@ $(document).ready(function(){
             $.blockUI({ message: $('#shippingserviceon') }); 
             setTimeout($.unblockUI, 2000); 
             shippingflag = 0; 
+            $.post( "OMSD2", { message: "Shipping service is on" } );
 
        } else {
             $.blockUI({ message: $('#shippingserviceoff') }); 
             setTimeout($.unblockUI, 2000); 
             shippingflag = 1;
+            $.post( "OMSD2", { message: "Shipping service is off." } );
         }
     });
     $(".promotionservice").click(function(){
@@ -42,11 +46,13 @@ $(document).ready(function(){
             $.blockUI({ message: $('#promotionserviceon') }); 
             setTimeout($.unblockUI, 2000); 
            promotionflag = 0; 
+           $.post( "OMSD2", { message: "Promotion service is on." } );
 
        } else {
             $.blockUI({ message: $('#promotionserviceoff') }); 
             setTimeout($.unblockUI, 2000); 
             promotionflag = 1;
+            $.post( "OMSD2", { message: "Promotion service is off" } );
         }
     });
 });
