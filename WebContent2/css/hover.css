@@ -1,0 +1,131 @@
+span{
+    width: 185px;
+    height: 110px;
+	position: relative;
+    background:none repeat scroll 0 0 #F0F0F0 ;
+    border: 1px solid black;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    margin: 0 auto;
+    position: absolute;
+    word-wrap: break-word;
+    text-align: center;
+    display: none;
+    margin-top:-135px;
+    margin-left: -50px;
+    border-radius: 7px;
+    font-family: Arial;
+    padding: 3px;
+    z-index: 24;
+}
+
+span:after{
+    content:'';
+    position:absolute;
+    bottom:-6px; 
+    width:10px;
+    height:10px;
+    border-bottom:1px solid black;
+    border-right:1px solid black;
+    background:#F0F0F0 ;
+    left:50%;
+    margin-left:-10px;
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+
+leftspan{
+    width: 185px;
+    height: 110px;
+    position: relative;
+    background:none repeat scroll 0 0 #F0F0F0 ;
+    border: 1px solid black;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    margin: 0 auto;
+    position: absolute;
+    word-wrap: break-word;
+    text-align: center;
+    display: none;
+    margin-top:-20px;
+    margin-left: -220px;
+    border-radius: 7px;
+    font-family: Arial;
+    padding: 3px;
+}
+
+leftspan:after{
+    content:'';
+    position:absolute;
+    bottom:-6px; 
+    width:10px;
+    height:10px;
+    border-bottom:1px solid black;
+    border-right:1px solid black;
+    background:#F0F0F0 ;
+    /*left:50%;*/
+    top:48%;
+    left:103%;
+    margin-left:-10px;
+    -moz-transform:rotate(320deg);
+    -webkit-transform:rotate(320deg);
+    transform:rotate(320deg);
+}
+
+.windowecomdborder:hover leftspan {
+	display:block;
+}
+
+.windowpaymentservice:hover leftspan {
+	display:block;
+}
+
+.window:hover span{
+	display:block;
+}
+
+.windowyellow:hover span{
+	display:block;
+}
+.windowgreen:hover span{
+	display:block;
+}
+
+.windowblue:hover span{
+	display:block;
+}
+
+.windowgray:hover span{
+	display:block;
+}
+
+.windowinventory:hover span{
+	display:block;
+}
+
+.windowshopping:hover span{
+	display:block;
+}
+
+.windowcheckout:hover span{
+	display:block;
+}
+
+.windowcancelabandon:hover span{
+	display:block;
+}
+
+.windowpricing:hover span{
+	display:block;
+}
+.gray_paymentservice:hover span{
+	display:block;
+}
+
+ .purple_paymentservice:hover span {
+ 	display:block;
+ }
+ 
