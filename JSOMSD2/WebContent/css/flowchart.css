@@ -8,6 +8,10 @@
     height: 1000px;
 }
 
+h4 {
+	text-align: center;
+}
+
 .legend {
 	content: url("legend.png");
 	position: absolute;
@@ -15,6 +19,7 @@
 	left:7em;
 	width: 400px;
 	height: 300px;
+	border: 1px;
 }
 
 .omsd2-flowchart .window { 
@@ -51,7 +56,7 @@
 	border:1px dotted red;
 }
 
-#ecomdborder { top:5em;left:83em; font-size:12px}
+#ecomdborder { top:5em;left:82em; font-size:12px}
 
 #paymentservice { top:5em;left:110em; font-size:12px}
 #addressverificationservice { top:15em;left:55em; font-size:12px}
@@ -69,7 +74,7 @@
 #orderconfirm { top:32em; left:93em; font-size:12px}
 #cancelabandonorder{ top:32em; left:108em; font-size:12px}
 
-#ecomdbmdmdata { top:50.5em;left:10.5em; font-size:12px }
+#ecomdbmdmdata { top:50.5em;left:9.4em; font-size:12px }
 #taxservice { top:50em;left:56em; font-size:12px }
 #shippingservice { top:50em; left:68em; font-size:12px}
 #promotionservice { top:50em; left:80.5em; font-size:12px}

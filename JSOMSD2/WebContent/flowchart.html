@@ -20,10 +20,16 @@
 	
 </head>
 <body data-demo-id="flowchart" data-library="jquery">
-            <h4><center>FLOWCHART</center></h4>
+            <h4>OMSD2 HIGH LEVEL PROCESS FLOW DIAGRAM</h4>
 				<div class = "legend">&nbsp;</div>
-                <div class="windowecomdborder" id="ecomdborder"><leftspan>hi hi hi</leftspan><strong>ecom DB (Order)</strong><br/><br/></div> 
-                <div class="windowpaymentservice" id="paymentservice"><leftspan>hi hi hi</leftspan><strong>Payment Service</strong><br/><br/></div> 
+                <div class="windowecomdborder" id="ecomdborder">
+                	<leftspan>The ecom DB (Order) does blah blah blah</leftspan>
+                	<strong><br><br><br><br>ecom DB <br> (Order)</strong><br/><br/>
+                </div> 
+                <div class="windowpaymentservice" id="paymentservice">
+                	<leftspan>The Payment Service does blah blah blah</leftspan>
+                	<strong>Payment Service</strong><br/><br/>
+                </div> 
                 <div class="windowgreen" id="addressverificationservice"><span> hi hi hi</span><strong>Address Verification Service</strong><br/><br/></div> 
                 <div class="windowgreen" id="orderidservice"><span> hi hi hi</span><strong>Order ID Service</strong><br/><br/></div>                 
                 <div class="windowgreen" id="orderloggerservice"><span> hi hi hi</span><strong>Order Logger Service</strong><br/><br/></div>                 
@@ -39,7 +45,7 @@
                 <div class="windowyellow" id="orderconfirm"><span> hi hi hi</span><strong>Order Confirm</strong><br/><br/></div>
                 <div class = "windowcancelabandon" id = "cancelAbandon"><span> hi hi hi</span><strong>Cancel/Abandon Order</strong><br/></br></div>
                 <div class="windowyellow" id="cancelabandonorder"><span> hi hi hi</span><strong>Cancel/ Abandon Order</strong><br/><br/></div>                   
-                <div class="windowblue" id="ecomdbmdmdata"><strong><span> hi hi </span>ecom DB<br> (MDM Data)</strong><br/><br/></div>
+                <div class="windowecomdbmdmdata" id="ecomdbmdmdata"><strong><span> hi hi </span><br><br><br><br>ecom DB<br> (MDM Data)</strong><br/><br/></div>
                 <div class="windowinventory" id="inventoryservice"><span> hi hi hi</span><strong>Inventory Service</strong><br/></br></div>
                 <div class = "windowpricing" id = "pricing"><span> hi hi hi</span><strong>Pricing Service</strong><br/></br></div>
                 <div class="window" id="taxservice"><span> hi hi hi</span><strong>Tax Service</strong><br/><br/></div>
@@ -70,7 +76,9 @@
                 <div class = "black_rulepublisher" id="feedstax"><strong>Feeds Tax/Shipping Rate Data</strong></div>
                 <div class = "blue_ecomdb" id="storemdmdata"><strong>Store MDM Data</strong></div>
                 <div class = "black_mdmservice" id="feedsitem"><strong>Feeds Item, <br> Shipping & <br> Tax Data</strong></div>
-   <!-- /demo
+                <div class = "black_addressverificationservice" id="validateaddress"><strong>Validate Address</strong></div>
+                
+   <!-- /demo -->
 <!-- JS -->
 <!-- support lib for bezier stuff -->
 <script src="lib/jsBezier-0.6.js"></script>

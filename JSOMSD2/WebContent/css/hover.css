@@ -18,6 +18,7 @@ span{
     font-family: Arial;
     padding: 3px;
     z-index: 24;
+
 }
 
 span:after{
@@ -34,6 +35,7 @@ span:after{
     -moz-transform:rotate(45deg);
     -webkit-transform:rotate(45deg);
     transform:rotate(45deg);
+    z-index: 24;
 }
 
 leftspan{
@@ -51,10 +53,11 @@ leftspan{
     text-align: center;
     display: none;
     margin-top:-20px;
-    margin-left: -220px;
+    margin-left: -210px;
     border-radius: 7px;
     font-family: Arial;
     padding: 3px;
+    z-index: 24;
 }
 
 leftspan:after{
@@ -69,10 +72,11 @@ leftspan:after{
     /*left:50%;*/
     top:48%;
     left:103%;
-    margin-left:-10px;
+    margin-left:-11px;
     -moz-transform:rotate(320deg);
     -webkit-transform:rotate(320deg);
     transform:rotate(320deg);
+    z-index: 24;
 }
 
 .windowecomdborder:hover leftspan {
@@ -94,7 +98,7 @@ leftspan:after{
 	display:block;
 }
 
-.windowblue:hover span{
+.windowecomdbmdmdata:hover span{
 	display:block;
 }
 

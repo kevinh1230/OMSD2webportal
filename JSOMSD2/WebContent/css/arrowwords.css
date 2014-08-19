@@ -1,29 +1,28 @@
-#authorizepayment { top: 13em; left: 98.4em; font-size:14px }
-#applygiftcard { top: 4.5em; left: 79.8em; font-size:14px }
-#captureorderinfo { top: 13.3em; left: 79.2em; font-size:14px }
-#publishorder { top: 40.3em; left: 89.5em; font-size:14px }
+#applygiftcard { top: 4.5em; left: 81em; font-size:14px }
 #applypromo { top: 39em; left: 74em; font-size:14px }
-#storeorderdata { top: 11.1em; left: 63.3em; font-size:14px }
+#authorizepayment { top: 13em; left: 98.4em; font-size:14px }
+#captureorderinfo { top: 13.3em; left: 78.2em; font-size:14px }
+#checkinventoryavailability { top: 39.8em; left: 25.6em; font-size:14px }
 #createorder { top: 20.7em; left: 54em; font-size:14px }
-#getpricinginfo { top: 38em; left: 62em; font-size:14px }
 #feeds { top: 57.1em; left: 58em; font-size:14px }
-#releasepromocode { top: 47em; left: 78em; font-size:14px }
+#feedsitem { top: 62em; left: 13em; font-size:14px }
+#feedstax { top: 47em; left: 18em; font-size:14px }
+#finalinventory { top: 60em; left: 73em; font-size:14px }
+#getitempricing { top: 39.8em; left: 12.6em; font-size:14px }
+#getpricinginfo { top: 38em; left: 62.3em; font-size:14px }
+#incrementalshipping { top: 55em; left: 78em; font-size:14px }
+#publishorder { top: 40.3em; left: 89.5em; font-size:14px }
+#releasepromocode { top: 46.2em; left: 78em; font-size:14px }
 #releaseinventory { top: 38.5em; left: 43em; font-size:14px }
 #reserveECDD { top: 35em; left: 37em; font-size:14px }
-#finalinventory { top: 60em; left: 73em; font-size:14px }
-#incrementalshipping { top: 55em; left: 78em; font-size:14px }
-#getitempricing { top: 39.8em; left: 12.6em; font-size:14px }
-#checkinventoryavailability { top: 39.8em; left: 25.6em; font-size:14px }
-#feedstax { top: 47em; left: 18em; font-size:14px }
 #storemdmdata { top: 50.7em; left: 12.5em; font-size:14px }
-#feedsitem { top: 62em; left: 13em; font-size:14px }
-
-
+#storeorderdata { top: 11.1em; left: 63.3em; font-size:14px }
+#validateaddress { top: 20.7em; left: 40em; font-size:14px }
 
 .purple_paymentservice, .purple_promotionservice,
 .gray_paymentservice, .gray_sterling, 
 .blue_orderloggerservice, .blue_ecomdborder, .blue_orderidservice, .blue_shippingservice, .blue_inventoryservice, .blue_sterling, .blue_ecomdb,
-.black_pricingservice, .black_rulepublisher, 
+.black_pricingservice, .black_rulepublisher, .black_addressverificationservice, 
 .green_ecomdb,.green_inventoryservice,
 .red_promotionservice, .red_inventoryservice {
 	text-align:center;
@@ -31,10 +30,7 @@
 	cursor:pointer;
 }
 
-
 /*color of the arrow and the target where it's pointing*/
-
-
 /*payment to payment service*/
 .purple_paymentservice {
     background-color: whitesmoke;
@@ -93,7 +89,7 @@
     position:absolute;    
     color: #4A78B0;
     padding:0.5em;
-    width:110px; 
+    width:130px; 
     height:23px;
     line-height: 14px;     
     vertical-align: middle;
@@ -368,6 +364,30 @@
 .black_mdmservice a {
     font-family:helvetica;
 }
+
+/*shipping address to address verification servie*/
+.black_addressverificationservice{
+	background-color: whitesmoke;        
+    position:absolute;    
+    color: black;
+    padding:0.5em;
+    width:130px; 
+    height:10px;
+    line-height: 14px;     
+    vertical-align: middle;
+    font-size:5;
+    z-index: -1;
+	}
+	
+.black_addressverificationservice:hover {
+    opacity:0.9;
+    filter:alpha(opacity=90);
+}
+
+.black_addressverificationservice a {
+    font-family:helvetica;
+}
+
 
 /*cancel/abandon order to promotion service*/
 .red_promotionservice{
