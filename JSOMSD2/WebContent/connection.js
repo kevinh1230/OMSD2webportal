@@ -28,7 +28,9 @@ jsPlumb.ready(function() {
         instance.draggable(jsPlumb.getSelector(".windowblue"), { containment:".demo"});
         instance.draggable(jsPlumb.getSelector(".windowgray"), { containment:".demo"});
         instance.draggable(jsPlumb.getSelector(".windowinventory"), { containment:".demo"});
+        instance.draggable(jsPlumb.getSelector(".windowecomdbmdmdata"), { containment:".demo"});
         instance.draggable(jsPlumb.getSelector(".windowecomdborder"), { containment:".demo"});
+
         instance.draggable(jsPlumb.getSelector(".windowpaymentservice"), { containment:".demo"});
 
         //gray arrows
@@ -69,6 +71,7 @@ jsPlumb.ready(function() {
         connectionpoints("payment","paymentservice",-80, -50,[ 0.7 , 0, 0, 1 ], [ 0, 0.5, 1, 0 ], "#6E4081", "");
         connectionpoints("payment","promotionservice", -37, -84, [ 0.7, 1, 0, -1 ], [ 0.7 , 0, 0, 1 ], "#6E4081", "");
 
+        //connects points between two components
         function connectionpoints(source, target, stubsource, stubtarget, anchorsource, anchortarget, strokestyle, dashstyle){
             instance.connect({
                 source: source,

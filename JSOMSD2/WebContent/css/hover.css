@@ -1,3 +1,4 @@
+/*spans hidden until hovered over*/
 span{
     width: 185px;
     height: 110px;
@@ -79,6 +80,7 @@ leftspan:after{
     z-index: 24;
 }
 
+/*when hovered, show span (text box)*/
 .windowecomdborder:hover leftspan {
 	display:block;
 }

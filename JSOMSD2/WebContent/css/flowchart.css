@@ -56,6 +56,7 @@ h4 {
 	border:1px dotted red;
 }
 
+/*put window in certain space on html page*/
 #ecomdborder { top:5em;left:82em; font-size:12px}
 
 #paymentservice { top:5em;left:110em; font-size:12px}
@@ -89,9 +90,6 @@ h4 {
 #cancelAbandon { top: 24.5em; left: 88.5em; font-size:14px }
 #inventoryservice {top: 42em; left: 35em; font-size:14px }
 #pricing { top: 42em; left: 47.2em; font-size:14px }
-
-
-
 
 .omsd2-flowchart ._jsPlumb_connector { z-index:4; }
 .omsd2-flowchart ._jsPlumb_endpoint, .endpointTargetLabel, .endpointSourceLabel{ z-index:21;cursor:pointer; }
